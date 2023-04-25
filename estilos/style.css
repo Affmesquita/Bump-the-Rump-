@@ -8,9 +8,54 @@
     box-sizing: border-box;
 }
 
+:root {
+    --var: #549480;
+}
+
 html body {
     width: 100vw;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+/*menu///////////////////////////////////////////////////////*/
+
+.menu {
+    width: 250px;
+    padding-left: 20px;
+    background-color: black;
+    
+    padding-bottom: 50px;
+}
+.menu img {
+    width: 100px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+.menu a {
+    color: white;
+}
+.menu a:hover {
+    color: #549480;
+}
+.menu i {
+    width: 40px;
+    color: #549480;
+}
+.menu ul {
+
+}
+.menu li {
+    margin: 10px;
+}
+
+.menu-list {
+    padding-bottom: 2rem;
+}
