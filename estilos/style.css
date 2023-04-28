@@ -16,23 +16,32 @@ html body {
     width: 100vw;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+
+    background-color:  rgb(7, 7, 7);
 }
 
 main {
     width: 100vw;
     height: 100vh;
 
+    background-color: rgb(7, 7, 7);
+
     display: flex;
+    justify-content: space-between;
 }
 
-/*menu///////////////////////////////////////////////////////*/
+/*menu//////////////////////////////////////////////////////*/
 
 .menu {
-    width: 250px;
+    width: 300px;
     padding-left: 20px;
     background-color: black;
     
     padding-bottom: 50px;
+
+    border-radius: 10px;
+
+    margin: 5px;
 }
 .menu img {
     width: 100px;
@@ -57,5 +66,95 @@ main {
 }
 
 .menu-list {
+    font-weight: bolder;
     padding-bottom: 2rem;
+}
+
+/* PLAYER///////////////////////////////////////////////////*/
+
+.player-music {
+    width: 90%;
+    height: 90%;
+
+    border-radius: 10px;
+
+    margin: 5px;
+}
+.player-head {
+    width: 100%;
+    height: 350px;
+
+    background: rgb(217,93,48);
+    background: linear-gradient(180deg, rgba(217,93,48,1) 58%, rgba(0,0,0,1) 100%);;
+
+    display: flex;
+    align-items: center;
+
+    padding: 50px;
+
+    border-radius: 10px 0px;
+}
+.player-head img {
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+}
+.audio-desc {
+    margin-left: 20px;
+}
+.audio-desc h1 {
+    font-size: 6rem;
+}
+
+.player-btn {
+    padding: 20px;
+}
+.player-btn img {
+    width: 170px;
+    height: 170px;
+
+    background-color: #549480;
+
+    border-radius: 30px;
+
+    padding: 10px;
+
+    cursor: pointer;
+}
+.player-btn img:hover {
+    background-color: white;
+}
+
+.audio-list {
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+
+    border-radius: 10px;
+
+    padding: 10px 30px;
+}
+.audio-list img{
+    width: 50px;
+    height: 50px;
+
+    object-fit: cover;
+}
+
+.audio-list-item {
+    padding: 10px;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    display: flex;
+}
+.list-item img {
+    margin-right: 20px;
 }
