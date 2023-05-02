@@ -108,6 +108,11 @@ main {
     font-size: 6rem;
 }
 
+.btn-conteiner {
+   display: flex;
+   align-items: center; 
+}
+
 .player-btn {
     padding: 20px;
 }
@@ -125,6 +130,11 @@ main {
 }
 .player-btn img:hover {
     background-color: white;
+}
+
+.point-btn {
+    background-color: blanchedalmond;
+    border-radius: 100px;
 }
 
 .audio-list {
